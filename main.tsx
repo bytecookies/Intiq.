@@ -9,8 +9,7 @@ import {
   TrendingUp, Upload, UserCheck, Users, Wallet, X, Zap, Database,
   ClipboardList, Megaphone, LockKeyhole, Globe2
 } from "lucide-react";
-import "./index.css";
-
+import '../index.css'
 type Role = "admin" | "partner" | "member";
 type Status = "Active" | "Draft" | "Completed" | "Pending" | "Reversed" | "Available" | "Suspended";
 
